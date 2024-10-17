@@ -22,7 +22,7 @@ const Editor = () => {
     }, []);
 
     return (
-        <div className="editor-container text-sm aspect-video">
+        <div className="container mx-auto text-sm h-full max-h-[75vh]">
             <div ref={mapContainerRef} className="map-container" style={{ width: '100%', height: '100%' }} />
         </div>
     );
